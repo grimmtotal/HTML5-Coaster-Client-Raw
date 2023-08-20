@@ -115,21 +115,7 @@
 <link id='-gd-engine-icon' rel='icon' type='image/png' href='CoasterWorld.icon.png' />
 <link rel='apple-touch-icon' href='CoasterWorld.apple-touch-icon.png'/>
 <link rel='manifest' href='CoasterWorld.manifest.json'>
-<script id="TOKEN" type="text/javascript">
 
-function tokenGen() {
-    
-    let token = localStorage.getItem('token');
-    
-    if (!token) {
-        token = crypto.randomUUID();
-        localStorage.setItem('token', token);
-    }
-
-    return token;
-}
-
-</script>
 </head>
 <body>
 	<canvas id='canvas'>
@@ -154,7 +140,7 @@ function tokenGen() {
 	<script type='text/javascript' src='CoasterWorld.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"CoasterWorld","experimentalVK":true,"fileSizes":{"CoasterWorld.pck":30324128,"CoasterWorld.wasm":18790056},"focusCanvas":true,"gdnativeLibs":[],"serviceWorker":"CoasterWorld.service.worker.js"};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"CoasterWorld","experimentalVK":true,"fileSizes":{"CoasterWorld.pck":30612416,"CoasterWorld.wasm":26058406},"focusCanvas":true,"gdnativeLibs":[],"serviceWorker":"CoasterWorld.service.worker.js"};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
