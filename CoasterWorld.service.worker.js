@@ -3,7 +3,7 @@
 // that they need an Internet connection to run the project if desired.
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
-const CACHE_VERSION = "1692507052|1271688679";
+const CACHE_VERSION = "1692508728|2948325648";
 const CACHE_PREFIX = "Open World-sw-cache-";
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 const OFFLINE_URL = "CoasterWorld.offline.html";
